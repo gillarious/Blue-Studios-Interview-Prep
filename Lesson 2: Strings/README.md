@@ -13,13 +13,10 @@ string = ""
 | index            | O(1)             |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+string = "hi! how are you"
 
-arr[1] 
-# returns 1
-
-arr[2] = 7 
-# arr = [0, 1, 7, 3, 4, 5]
+string[4] 
+# returns "h"
 ```
 
 | Function | Big O Complexity |
@@ -27,54 +24,36 @@ arr[2] = 7
 | length | O(1) |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+string = "hi! how are you"
 
-len(arr)
-# returns 6
+len(string)
+# returns 15
 ```
 
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
-| append           | O(1)             | 
+| concatenation | O(N)   | 
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+string = "hi! how are you"
 
-arr.append(6)
-# arr = [0, 1, 2, 3, 4, 5, 6]
+string2 = "?"
+string += string2
+# string = "hi! how are you?"
 ```
 
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
-| insert           | O(N)             | 
+| slicing          | O(K)             | 
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+string = "hi! how are you"
 
-arr.insert(0, 10)
-# arr = [10, 0, 1, 2, 3, 4, 5]
-```
+string[:3]
+# returns "hi!"
 
-| Function         | Big O Complexity |
-| ---------------- | ---------------- |
-| pop()            | O(1)             |
-| pop(-1)          | O(1)             |
-| pop(i)           | O(N)             |
-
-```python
-arr = [0, 1, 2, 3, 4, 5]
-
-arr.pop()
-# returns 5
-# arr = [0, 1, 2, 3, 4]
-
-arr.pop(-1)
-# returns 5
-# arr = [0, 1, 2, 3, 4]
-
-arr.pop(3)
-# returns 3
-# arr = [0, 1, 2, 4, 5]
+string[8:]
+# returns "are you"
 ```
 
 | Function | Big O Complexity |
@@ -83,14 +62,14 @@ arr.pop(3)
 | not equal to | O(N) |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+string = "hi! how are you"
 
-arr2 = [0, 1, 2, 3, 4, 5]
-arr == arr2
+string2 = "hi! how are you"
+string == string2
 # returns True
 
-arr3 = [0, 1, 2, 3, 4, 5, 6, 7]
-arr != arr3
+string3 = "what's up?"
+string != string3
 # returns True
 ```
 
@@ -99,9 +78,9 @@ arr != arr3
 | iteration | O(N) |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+string = "hi! how are you"
 
-for i in arr:
+for i in string:
     print(i, end=" ")
-# returns 0 1 2 3 4 5
+# returns "h i !   h o w   a r e   y o u "
 ```
