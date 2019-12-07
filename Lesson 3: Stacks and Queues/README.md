@@ -56,7 +56,7 @@ stack.append(10)
 
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
-| pop()            | O(1)             |
+| pop            | O(1)             |
 
 ```python
 stack = [0, 1, 2, 3, 4, 5]
