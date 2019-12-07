@@ -54,6 +54,9 @@ string[:3]
 
 string[8:]
 # returns "are you"
+
+string[2:7]
+# returns "! how"
 ```
 
 | Function | Big O Complexity |
