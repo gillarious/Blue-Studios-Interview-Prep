@@ -2,7 +2,7 @@
 
 ### Implementation
 
-```python=1
+```python
 arr = [0, 1, 2, 3, 4, 5]
 ```
 
@@ -14,7 +14,7 @@ arr = [0, 1, 2, 3, 4, 5]
 | index            | O(1)             |
 | index assignment | O(1)             |
 
-```python=10
+```python
 arr = [0, 1, 2, 3, 4, 5]
 arr[1]
 arr[2] = 7
