@@ -6,8 +6,6 @@
 arr = [0, 1, 2, 3, 4, 5]
 ```
 
----
-
 ### Runtime Analysis
 
 | Function         | Big O Complexity |
@@ -16,9 +14,10 @@ arr = [0, 1, 2, 3, 4, 5]
 | index assignment | O(1)             |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
-arr[1] => 1
-arr[2] = 7 => [0, 1, 7, 3, 4, 5]
+arr[1] 
+# returns 1
+arr[2] = 7 
+# arr = [0, 1, 7, 3, 4, 5]
 ```
 
 | Function         | Big O Complexity |
