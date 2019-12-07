@@ -1,6 +1,6 @@
 # Recursion
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

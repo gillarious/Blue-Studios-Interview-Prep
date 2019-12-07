@@ -1,6 +1,6 @@
 # Strings
 
-### Implementation
+### Initialization
 
 ```python
 string = ""
@@ -11,7 +11,6 @@ string = ""
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
 | index            | O(1)             |
-| index assignment | O(1)             |
 
 ```python
 arr = [0, 1, 2, 3, 4, 5]

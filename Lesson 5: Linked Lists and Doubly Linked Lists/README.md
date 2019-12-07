@@ -1,6 +1,6 @@
 # Linked Lists and Doubly Linked Lists
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

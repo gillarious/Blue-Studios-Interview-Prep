@@ -1,6 +1,6 @@
 # Heaps (or Priority Queues)
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

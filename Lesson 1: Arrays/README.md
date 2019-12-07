@@ -1,6 +1,6 @@
 # Arrays
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

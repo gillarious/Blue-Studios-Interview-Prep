@@ -1,6 +1,6 @@
 # Search and Sorting Algorithms
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

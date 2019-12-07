@@ -1,6 +1,6 @@
 # Stacks and Queues
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

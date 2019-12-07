@@ -1,6 +1,6 @@
 # Binary Search Trees
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

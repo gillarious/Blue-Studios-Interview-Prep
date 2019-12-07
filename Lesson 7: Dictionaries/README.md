@@ -1,6 +1,6 @@
 # Dictionaries
 
-### Implementation
+### Initialization
 
 ```python
 arr = []

@@ -1,6 +1,6 @@
 # Sets
 
-### Implementation
+### Initialization
 
 ```python
 arr = []
