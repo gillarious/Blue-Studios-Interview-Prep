@@ -1,5 +1,6 @@
 '''
-Rotate an array to the right k amount of times
+Rotate an array to the right k amount of times.
+
 Ex. k = 4 so [1, 2, 3, 4, 5] => [2, 3, 4, 5, 1]
 '''
 

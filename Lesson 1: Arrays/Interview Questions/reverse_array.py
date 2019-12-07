@@ -1,5 +1,7 @@
 '''
-Reverse a given array
+Reverse a given array.
+
+Ex. [0, 1, 2, 6] => [6, 2, 1, 0]
 '''
 
 def reverse_array(array):
