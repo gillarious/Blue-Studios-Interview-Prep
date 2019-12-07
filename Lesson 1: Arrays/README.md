@@ -21,15 +21,74 @@ arr[2] = 7
 # arr = [0, 1, 7, 3, 4, 5]
 ```
 
-| Function         | Big O Complexity |
-| ---------------- | ---------------- |
-| length           | O(1)             |
+| Function | Big O Complexity |
+| --- | --- |
+| length | O(1) |
+
+```python
+len(arr)
+# returns 6
+```
 
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
 | append           | O(1)             | 
 
+```python
+arr.append(6)
+# arr = [0, 1, 2, 3, 4, 5, 6]
+```
+
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
-| pop() or pop(-1) | O(1)             |
+| insert           | O(N)             | 
+
+```python
+arr.insert(0, 10)
+# arr = [10, 0, 1, 2, 3, 4, 5]
+```
+
+| Function         | Big O Complexity |
+| ---------------- | ---------------- |
+| pop()            | O(1)             |
+| pop(-1)          | O(1)             |
 | pop(i)           | O(N)             |
+
+```python
+arr.pop()
+# returns 5
+# arr = [0, 1, 2, 3, 4]
+
+arr.pop(-1)
+# returns 5
+# arr = [0, 1, 2, 3, 4]
+
+arr.pop(3)
+# returns 3
+# arr = [0, 1, 2, 4, 5]
+```
+
+| Function | Big O Complexity |
+| --- | --- |
+| equal to | O(N) |
+| not equal to | O(N) |
+
+```python
+arr2 = [0, 1, 2, 3, 4, 5]
+arr == arr2
+# returns True
+
+arr3 = [0, 1, 2, 3, 4, 5, 6, 7]
+arr != arr3
+# returns True
+```
+
+| Function | Big O Complexity |
+| --- | --- |
+| iteration | O(N) |
+
+```python
+for i in arr:
+    print(i, end=" ")
+# returns 0 1 2 3 4 5
+```
