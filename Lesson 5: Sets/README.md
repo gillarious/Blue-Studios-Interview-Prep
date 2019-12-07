@@ -3,34 +3,19 @@
 ### Initialization
 
 ```python
-arr = []
+s = set()
 ```
 
 ### Runtime Analysis
-
-| Function         | Big O Complexity |
-| ---------------- | ---------------- |
-| index            | O(1)             |
-| index assignment | O(1)             |
-
-```python
-arr = [0, 1, 2, 3, 4, 5]
-
-arr[1] 
-# returns 1
-
-arr[2] = 7 
-# arr = [0, 1, 7, 3, 4, 5]
-```
 
 | Function | Big O Complexity |
 | --- | --- |
 | length | O(1) |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+s = {0, 1, 2, 3, 4, 5}
 
-len(arr)
+len(s)
 # returns 6
 ```
 
@@ -39,43 +24,33 @@ len(arr)
 | append           | O(1)             | 
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+s = {0, 1, 2, 3, 4, 5}
 
-arr.append(6)
-# arr = [0, 1, 2, 3, 4, 5, 6]
+s.add(6)
+# s = {0, 1, 2, 3, 4, 5, 6}
 ```
 
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
-| insert           | O(N)             | 
+| remove           | O(1)             | 
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+s = {0, 1, 2, 3, 4, 5}
 
-arr.insert(0, 10)
-# arr = [10, 0, 1, 2, 3, 4, 5]
+s.remove(0)
+# s = {1, 2, 3, 4, 5}
 ```
 
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
 | pop()            | O(1)             |
-| pop(-1)          | O(1)             |
-| pop(i)           | O(N)             |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+s = {0, 1, 2, 3, 4, 5}
 
-arr.pop()
+s.pop()
 # returns 5
-# arr = [0, 1, 2, 3, 4]
-
-arr.pop(-1)
-# returns 5
-# arr = [0, 1, 2, 3, 4]
-
-arr.pop(3)
-# returns 3
-# arr = [0, 1, 2, 4, 5]
+# s = {0, 1, 2, 3, 4}
 ```
 
 | Function | Big O Complexity |
@@ -84,14 +59,14 @@ arr.pop(3)
 | not equal to | O(N) |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+s = {0, 1, 2, 3, 4, 5}
 
-arr2 = [0, 1, 2, 3, 4, 5]
-arr == arr2
+s2 = {0, 1, 2, 3, 4, 5}
+s == s2
 # returns True
 
-arr3 = [0, 1, 2, 3, 4, 5, 6, 7]
-arr != arr3
+s3 = {0, 1, 2, 3, 4, 5, 6, 7}
+s != s3
 # returns True
 ```
 
@@ -100,9 +75,9 @@ arr != arr3
 | iteration | O(N) |
 
 ```python
-arr = [0, 1, 2, 3, 4, 5]
+s = {0, 1, 2, 3, 4, 5}
 
-for i in arr:
+for i in s:
     print(i, end=" ")
 # returns 0 1 2 3 4 5
 ```
