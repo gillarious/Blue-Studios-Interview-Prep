@@ -6,9 +6,9 @@ Code for the Technical Interview Prep video series for Blue Studios
 
 ## About Me
 
-- Started coding my sophomore year of high school
 - Junior at Saint Peter's University
 - Computer Science Major aspiring to be a Software Engineer
+- Started coding my sophomore year of high school
 - Where I've interned: 
     - Morgan Stanley (Spring 2017)
     - United Parcel Service (Summer 2018)
