@@ -14,6 +14,8 @@ arr = []
 | ---------------- | ---------------- |
 | algorithm        | O(logN)         |
 
+---
+
 ## Bubble Sort
 
 ### Implementation
@@ -28,6 +30,8 @@ arr = []
 | ---------------- | ---------------- |
 | algorithm        | O(N^2)         |
 
+---
+
 ## Quick Sort
 
 ### Implementation
@@ -41,6 +45,8 @@ arr = []
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
 | algorithm        | O(NlogN)         |
+
+---
 
 ## Merge Sort
 
