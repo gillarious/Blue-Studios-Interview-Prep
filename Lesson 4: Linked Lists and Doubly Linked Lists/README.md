@@ -13,6 +13,12 @@ class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
+    
+    def traverse(self):
+        node = self
+        while node != None:
+            print(node.val)
+            node = node.next
 ```
 
 ### Runtime Analysis
@@ -23,14 +29,6 @@ class Node:
 | insert      | O(1)   | 
 | delete      | O(1)     | 
 | iteration | O(N) |
-
-```python
-def traverse(self):
-        node = self
-        while node != None:
-            print(node.val)
-            node = node.next
-```
 
 ---
 
@@ -49,6 +47,18 @@ class DoublyNode:
         self.val = val
         self.next = None
         self.prev = None
+
+    def traverse_right(self):
+        node = self
+        while node != None:
+            print(node.val)
+            node = node.next
+
+    def traverse_left(self):
+        node = self
+        while node != None:
+            print(node.val)
+            node = node.prev
 ```
 
 ### Runtime Analysis
@@ -60,17 +70,3 @@ class DoublyNode:
 | insert right           | O(1)   | 
 | delete          | O(1)     | 
 | iteration | O(N) |
-
-```python
-def traverse_right(self):
-        node = self
-        while node != None:
-            print(node.val)
-            node = node.next
-
-def traverse_left(self):
-        node = self
-        while node != None:
-            print(node.val)
-            node = node.prev
-```
