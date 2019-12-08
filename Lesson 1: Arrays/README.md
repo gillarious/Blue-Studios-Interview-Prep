@@ -58,6 +58,17 @@ arr.insert(0, 10)
 
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
+| remove           | O(N)             | 
+
+```python
+arr = [0, 1, 2, 3, 2, 4, 5]
+
+arr.remove(2)
+# arr = [0, 1, 3, 2, 4, 5]
+```
+
+| Function         | Big O Complexity |
+| ---------------- | ---------------- |
 | pop()            | O(1)             |
 | pop(-1)          | O(1)             |
 | pop(i)           | O(N)             |

@@ -3,7 +3,7 @@
 ### Initialization
 
 ```python
-arr = []
+
 ```
 
 ### Runtime Analysis

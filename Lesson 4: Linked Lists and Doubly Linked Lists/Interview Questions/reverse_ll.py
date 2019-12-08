@@ -16,15 +16,13 @@ class Node:
             node = node.next
 
 def reverse_ll(head):
-    if head == None or head.next == None:
-        return head
-    curr = head
-    while head.next != None:
-        temp = head.next.next
-        head.next.next = curr
-        curr = head.next
-        head.next = temp
-    return curr
+    prev = None
+    while head != None:
+        next = head.next
+        head.next = prev
+        prev = head
+        head = next
+    return prev
 
 test = Node(1)
 node_1 = Node(2)
