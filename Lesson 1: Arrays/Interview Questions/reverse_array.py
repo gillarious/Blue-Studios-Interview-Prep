@@ -10,5 +10,13 @@ def reverse_array(array):
         rev.append(array.pop())
     return rev
 
+def reverse(array):
+    return array[::-1]
+
+def reverse2(array):
+    return list(reversed(array))
+
 test = [0, 1, 2, 6]
-print(reverse_array(test))
+#print(reverse_array(test))
+
+print(reverse2(test))

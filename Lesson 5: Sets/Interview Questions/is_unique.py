@@ -12,5 +12,8 @@ def is_unique(string):
         s.add(i)
     return True
 
+def unique(string):
+    return string == str(set(string))
+
 test = "gate"
-print(is_unique(test))
+print(unique(test))

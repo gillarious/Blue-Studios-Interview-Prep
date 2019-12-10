@@ -11,5 +11,5 @@ def only_vowels(string):
             return False
     return True
 
-test = "eye"
+test = "pie"
 print(only_vowels(test))
