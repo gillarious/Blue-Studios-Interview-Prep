@@ -3,7 +3,7 @@
 ### Initialization
 
 ```python
-dictionary = {}
+d = {}
 ```
 
 ### Runtime Analysis
@@ -102,11 +102,11 @@ arr != arr3
 ```python
 arr = [0, 1, 2, 3, 4, 5]
 
-for i in arr:
+for keys in d.keys():
     print(i, end=" ")
 # returns 0 1 2 3 4 5
 
-for i in arr:
+for vals in arr:
     print(i, end=" ")
 # returns 0 1 2 3 4 5
 
