@@ -3,9 +3,10 @@
 ### Initialization
 
 ```python
-arr = [] 
+def function():
+    return function()
 ```
 
 ### Runtime Analysis
 
-Depends
+Runtime of recursive funtions depend on the algorithm's implementation.
