@@ -1,29 +1,28 @@
 '''
-Reverse the words in a given string.
+Given a list of numbers and a number k, determine whether or not any two numbers from the list add up to k.
 
-Ex. "hi how are you" => "you are how hi"
+Ex. k = 17 so [10, 15, 3, 7] => True
+Ex. k = 22 so [14, 17, 1, 9] => False
+Ex. k = 9 so [2, 7, 11, 15] => True
 '''
- 
- 
-'''
-Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
-For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
-Bonus: Can you do this in one pass?
-'''
-#return True or False
-def two_sum_bool(arr, k):
-    pass
 
-#leetcode two sum - return indices of the solution elements
 def two_sum(arr, k):
-    pass
-
+    nums = {}
+    for i in arr:
+        if i not in nums:
+            nums[i] = k - i
+        if i in nums.values():
+            return True
+    return False
+        
 test1 = [10, 15, 3, 7]
 k1 = 17
-print(two_sum_bool(test1, k1))
 print(two_sum(test1, k1))
 
-test2 = [2, 7, 11, 15]
-k2 = 9
-print(two_sum_bool(test2, k2))
+test2 = [14, 17, 1, 9]
+k2 = 22
 print(two_sum(test2, k2))
+
+test3 = [2, 7, 11, 15]
+k3 = 9
+print(two_sum(test3, k3))

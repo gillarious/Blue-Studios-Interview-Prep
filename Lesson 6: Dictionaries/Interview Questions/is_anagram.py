@@ -1,10 +1,13 @@
- '''
-Reverse the words in a given string.
+'''
+Determine whether or not two given strings are anagrams.
 
-Ex. "hi how are you" => "you are how hi"
+Ex. "hi" and "ih" => True
+Ex. "lol" and "ooo" => False
+Ex. "iceman" and "cinema" => True
+Ex. "aab" and "bba" => False
 '''
  
- def is_anagram(a, b):
+def is_anagram(a, b):
     letters_a = {}
     letters_b = {}
     if len(a) != len(b):
@@ -26,6 +29,18 @@ Ex. "hi how are you" => "you are how hi"
             return False
     return True
 
-print(is_anagram("hi", "ih"))
-print(is_anagram("lol", "ooo"))
-print(is_anagram("aab", "bba"))
+test1 = "hi"
+test2 = "ih"
+print(is_anagram(test1, test2))
+
+test3 = "lol"
+test4 = "ooo"
+print(is_anagram(test3, test4))
+
+test5 = "iceman"
+test6 = "cinema"
+print(is_anagram(test5, test6))
+
+test7 = "aab"
+test8 = "bba"
+print(is_anagram(test7, test8))
