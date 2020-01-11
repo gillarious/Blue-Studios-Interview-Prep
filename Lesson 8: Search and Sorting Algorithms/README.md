@@ -127,4 +127,3 @@ def mergeSort(arr, l, r):
 | Function         | Big O Complexity |
 | ---------------- | ---------------- |
 | algorithm        | O(NlogN)         |
-
