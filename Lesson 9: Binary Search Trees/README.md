@@ -10,7 +10,7 @@ class Node:
         self.right = None 
 
     def __str__(self):
-        return str(self.info) 
+        return str(self.val) 
 
 class BinarySearchTree:
     def __init__(self):
@@ -23,13 +23,13 @@ class BinarySearchTree:
             current = self.root
          
             while True:
-                if val < current.info:
+                if val < current.val:
                     if current.left:
                         current = current.left
                     else:
                         current.left = Node(val)
                         break
-                elif val > current.info:
+                elif val > current.val:
                     if current.right:
                         current = current.right
                     else:
@@ -53,7 +53,7 @@ class BinarySearchTree:
 def preorder(root):
     if root == None:
         return
-    print(root.info, end=" ")
+    print(root.val, end=" ")
     preorder(root.left)
     preorder(root.right)
 ```
@@ -65,7 +65,7 @@ def inorder(root):
     if root == None:
         return
     inorder(root.left)
-    print(root.info, end=" ")
+    print(root.val, end=" ")
     inorder(root.right)
 ```
 
@@ -77,7 +77,7 @@ def postorder(root):
         return
     postorder(root.left)
     postorder(root.right)
-    print(root.info, end=" ")
+    print(root.val, end=" ")
 ```
 
 ## Breadth First Traversal
