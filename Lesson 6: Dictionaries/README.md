@@ -86,17 +86,6 @@ d.clear()
 # d = {}
 ```
 
-| Function         | Big O Complexity |
-| ---------------- | ---------------- |
-| view         | O(1)             | 
-
-```python
-d = {"apples": 3, "oranges": 1, "strawberries": 10}
-
-d.keys()
-# {"apples": 3, "oranges": 1, "strawberries": 10}
-```
-
 | Function | Big O Complexity |
 | --- | --- |
 | iteration | O(N) |
